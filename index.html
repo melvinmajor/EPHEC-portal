@@ -1,0 +1,105 @@
+<!-- Made by Melvin Campos Casares -->
+<!-- Tiles images coming from Syncfusion Metro Studio Library -->
+<!-- EPHEC icons taken from the web and modified with Adobe Photoshop CC -->
+<!-- Last modification: 08/02/2018 -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portail EPHEC</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+    /**
+     * TAG
+     */
+    body {
+      text-align: center;
+      background-color: #424242;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 75px;
+    }
+    h1, h2 {
+      color: #fafafa;
+      margin: 25px;
+    }
+    h1 { font-size: 175%; }
+    h2 {
+      font-size: 150%;
+      text-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
+    a {
+      color: #e0e0e0;
+      margin: 5px;
+      padding: 2px 5px;
+    }
+    span {
+      color: #e0e0e0;
+      font-size: 90%;
+    }
+    footer {
+      color: white;
+      font-size: 10px;
+      margin-top: 20px;
+      text-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
+    /**
+     * CLASS
+     */
+    .tile {
+      display: grid;
+      grid-template-columns: repeat(4, 172px);
+    }
+    .superTile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    .link {
+      border: 1px solid gray;
+      background-color: gray;
+      text-decoration: none;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+      width: 150px;
+      height: 150px;
+    }
+    .link:hover { box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); }
+
+    /**
+     * ID
+     */
+    #rapitisse { width: 200px; }
+  </style>
+</head>
+<body>
+<img src="IMG/EPHEC-logo.png" id="rapitisse">
+<h2>Portail</h2>
+<div class="superTile">
+  <div class="tile">
+    <a href="https://outlook.office365.com/owa/?realm=ephec.be#path=/mail" class="link" target="_blank"><img src="IMG/Mail.png">Mail</a>
+    <a href="https://outlook.office365.com/owa/?realm=ephec.be#path=/calendar" class="link" target="_blank"><img src="IMG/Calendar.png">Calendrier</a>
+    <a href="https://eperso.ephec.be/" title="Accéder à mon dossier personnel" class="link" target="_blank"><img src="IMG/Graduate.png">ePerso</a>
+    <a href="https://campus-virtuel.ephec.be/sites/ephec2017" title="Accéder à mes cours" class="link" target="_blank"><img src="IMG/Black-Board.png">eCampus</a>
+    <a href="https://ephec.sharepoint.com/sites/Agora/SitePages/Accueil.aspx" title="Accéder à Agora" class="link" target="_blank"><img src="IMG/School.png">Intranet Etudiant</a>
+    <a href="https://ephec.sharepoint.com/sites/Private/IntranetHE/SitePages/Accueil.aspx" title="Intranet professeurs & administratifs" class="link" target="_blank"><img src="IMG/School2.png">Intranet HE</a>
+    <a href="https://ephec.sharepoint.com/sites/Private/Intranetps/SitePages/Accueil.aspx" title="Intranet professeurs & administratifs PS" class="link" target="_blank"><img src="IMG/School2.png">Intranet PS</a>
+    <a href="https://ephec-my.sharepoint.com/" title="Accéder à mon OneDrive" class="link" target="_blank"><img src="IMG/OneDrive.png">OneDrive</a>
+    <a href="http://www.ephec.be/" class="link" target="_blank"><img src="IMG/EPHEC.png">Site internet</a>
+    <a href="https://mediaplus.ephec.be/" title="Accéder à la plateforme ENI" class="link" target="_blank"><img src="IMG/Plus.png">Media Plus</a>
+    <a href="https://wims.ephec.be/" title="Accéder à l'apprentissage des langues" class="link" target="_blank"><img src="IMG/Book.png">Wims</a>
+    <a href="http://ephec-alumni.be/" title="Accéder au site des anciens étudiants" class="link" target="_blank"><img src="IMG/EPHEC-Alumni.png">Alumni</a>
+  </div>
+</div>
+<span>
+  <a href="https://account.activedirectory.windowsazure.com/ChangePassword.aspx" target="_blank">Modifier votre mot de passe</a>
+   -
+  <a href="https://passwordreset.microsoftonline.com" target="_blank">Réinitialiser votre mot de passe</a>
+</span>
+<footer>
+  © 2018 - Melvin Campos Casares
+</footer>
+</body>
+</html>
