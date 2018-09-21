@@ -1,8 +1,9 @@
 /**
  * Made by Melvin Campos Casares
- * Last modification: 08/03/2018
+ * Last modification: 19/09/2018
  */
 
+@import url(colors.css);
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /**
@@ -10,33 +11,33 @@
  */
 body {
   text-align: center;
-  background-color: #424242;
+  background-color: var(--background);
   font-family: 'Roboto', sans-serif;
   margin-top: 75px;
 }
 h1, h2 {
-  color: #fafafa;
+  color: var(--header);
   margin: 25px;
 }
 h1 { font-size: 175%; }
 h2 {
   font-size: 150%;
-  text-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  text-shadow: 0 3px 6px var(--rgba-start), 0 3px 6px var(--rgba-stop);
 }
 a {
-  color: #e0e0e0;
+  color: var(--link);
   margin: 5px;
   padding: 2px 5px;
 }
 span {
-  color: #e0e0e0;
+  color: var(--link);
   font-size: 90%;
 }
 footer {
-  color: white;
+  color: var(--foot);
   font-size: 10px;
   margin-top: 20px;
-  text-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  text-shadow: 0 3px 6px var(--rgba-start), 0 3px 6px var(--rgba-stop);
 }
 
 /**
@@ -53,17 +54,26 @@ footer {
   margin-bottom: 10px;
 }
 .link {
-  border: 1px solid gray;
-  background-color: gray;
+  border: 1px solid var(--tile);
+  background-color: var(--tile);
   text-decoration: none;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px var(--rgba-link-start), 0 1px 2px var(--rgba-link-stop);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   width: 150px;
   height: 150px;
 }
-.link:hover { box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); }
+.link:hover {
+  box-shadow: 0 14px 28px var(--rgba-hover-start), 0 10px 10px var(--rgba-hover-stop);
+  transition: background-color, font-weight, border 200ms;
+  background-color: var(--ephec);
+  border: var(--ephec);
+  font-weight: bold;
+}
 
 /**
  * ID
  */
-#rapitisse { width: 200px; }
+#rapitisse {
+  width: 175px;
+  margin-top: -25px;
+}

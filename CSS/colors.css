@@ -1,0 +1,24 @@
+/**
+ * Made by Melvin Campos Casares
+ * Last modification: 19/09/2018
+ */
+
+body {
+  --ephec: #FF6A10;
+  --tile: #757575;
+  --background: #424242;
+}
+h1, h2 { --header: #fafafa; }
+a, span { --link: #e0e0e0; }
+h2, footer {
+  --rgba-start: rgba(0,0,0,0.16);
+  --rgba-stop: rgba(0,0,0,0.23);
+}
+footer { --foot: white; }
+
+.link {
+  --rgba-link-start: rgba(0,0,0,0.12);
+  --rgba-link-stop: rgba(0,0,0,0.24);
+  --rgba-hover-start: rgba(0,0,0,0.25);
+  --rgba-hover-stop: rgba(0,0,0,0.22);
+}
