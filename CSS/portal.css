@@ -1,6 +1,6 @@
 /**
  * Made by Melvin Campos Casares
- * Last modification: 19/09/2018
+ * Last modification: 21/09/2018
  */
 
 @import url(colors.css);
@@ -35,9 +35,18 @@ span {
 }
 footer {
   color: var(--foot);
-  font-size: 10px;
+  font-size: 75%;
   margin-top: 20px;
   text-shadow: 0 3px 6px var(--rgba-start), 0 3px 6px var(--rgba-stop);
+  /* Footer fixed at the bottom of the web navigator screen */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: var(--foot-background);
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 19px 0 38px var(--foot-rgba-start), 15px 0 12px var(--foot-rgba-stop);
 }
 
 /**

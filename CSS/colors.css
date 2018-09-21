@@ -1,12 +1,12 @@
 /**
  * Made by Melvin Campos Casares
- * Last modification: 19/09/2018
+ * Last modification: 21/09/2018
  */
 
 body {
   --ephec: #FF6A10;
-  --tile: #757575;
-  --background: #424242;
+  --tile: #373737;
+  --background: #171717;
 }
 h1, h2 { --header: #fafafa; }
 a, span { --link: #e0e0e0; }
@@ -14,7 +14,12 @@ h2, footer {
   --rgba-start: rgba(0,0,0,0.16);
   --rgba-stop: rgba(0,0,0,0.23);
 }
-footer { --foot: white; }
+footer {
+  --foot: #bdbdbd;
+  --foot-background: #424242;
+  --foot-rgba-start: rgba(0,0,0,0.30);
+  --foot-rgba-stop: rgba(0,0,0,0.22);
+}
 
 .link {
   --rgba-link-start: rgba(0,0,0,0.12);
