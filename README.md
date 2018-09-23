@@ -1,7 +1,7 @@
 ># EPHEC-portal
 >Portail web de l'EPHEC
 >
->-> Last update : March 2018
+>-> Last update : September 2018
 
 Langage de programmation
 ==
@@ -10,6 +10,10 @@ HTML5, CSS3
 Portail réel de l'EPHEC
 ==
 http://portal.ephec.be
+
+Release
+==
+Dans la section "release", vous trouverez la version du portail pour 2017-2018 ainsi que celle pour 2018-2019 (encore en cours d'amélioration).
 
 Manuel d'utilisation
 ==
