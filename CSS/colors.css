@@ -1,6 +1,6 @@
 /**
  * Made by Melvin Campos Casares
- * Last modification: 24/09/2018
+ * Last modification: 26/09/2018
  */
 
 body {
@@ -14,13 +14,18 @@ h2, footer {
   --rgba-start: rgba(0,0,0,0.16);
   --rgba-stop: rgba(0,0,0,0.23);
 }
-footer {
+footer, #copyright {
   --foot: #bdbdbd;
   --foot-background: #424242;
   --foot-rgba-start: rgba(0,0,0,0.30);
   --foot-rgba-stop: rgba(0,0,0,0.22);
 }
 
+.sidenav {
+  --sidenav-background: #fff;
+  --sidenav-text: #818181;
+  --sidenav-text-hover: #1f1f1f;
+}
 .link {
   --rgba-link-start: rgba(0, 0, 0, 0.12);
   --rgba-link-stop: rgba(0, 0, 0, 0.24);

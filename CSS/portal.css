@@ -1,6 +1,6 @@
 /**
  * Made by Melvin Campos Casares
- * Last modification: 24/09/2018
+ * Last modification: 26/09/2018
  */
 
 @import url(colors.css);
@@ -10,10 +10,8 @@
  * TAG
  */
 body {
-  text-align: center;
   background-color: var(--background);
   font-family: 'Roboto', sans-serif;
-  margin-top: 75px;
 }
 h1, h2 {
   color: var(--header);
@@ -41,6 +39,7 @@ footer {
   /* Footer fixed at the bottom of the web navigator screen */
   position: fixed;
   left: 0;
+  right: 0;
   bottom: 0;
   background-color: var(--ephec);
   height: 30px;
@@ -52,6 +51,10 @@ footer {
 /**
  * CLASS
  */
+.portal {
+  text-align: center;
+  margin-top: 50px;
+}
 .tile {
   display: grid;
   grid-template-columns: repeat(4, 172px);
