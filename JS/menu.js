@@ -9,36 +9,38 @@
  * It's an off-canvas menu w/ opacity
  */
 function blurOn() {
-  var x = document.getElementsByClassName("portal");
-  var i;
+  const x = document.getElementsByClassName("portal");
+  let i;
   for (i = 0; i < x.length; i++) {
+    x[i].style.transition = ".5s";
     x[i].style.webkitFilter = "blur(5px)";
     x[i].style.filter = "blur(5px)"; /* For IE8 and earlier */
   }
 }
 function blurOff() {
-  var x = document.getElementsByClassName("portal");
-  var i;
+  const x = document.getElementsByClassName("portal");
+  let i;
   for (i = 0; i < x.length; i++) {
     x[i].style.webkitFilter = "blur(0px)";
     x[i].style.filter = "blur(0px)"; /* For IE8 and earlier */
   }
 }
 function footerFixedOn() {
-  var x = document.getElementsByTagName("footer");
-  var i;
+  const x = document.getElementsByTagName("footer");
+  let i;
   for (i = 0; i < x.length; i++) {
     x[i].style.position = "fixed";
     x[i].style.bottom = "0";
     x[i].style.left = "0";
     x[i].style.right = "0";
+    x[i].style.transition = ".5s";
     x[i].style.webkitFilter = "blur(5px)";
     x[i].style.filter = "blur(5px)"; /* For IE8 and earlier */
   }
 }
 function footerFixedOff() {
-  var x = document.getElementsByTagName("footer");
-  var i;
+  const x = document.getElementsByTagName("footer");
+  let i;
   for (i = 0; i < x.length; i++) {
     x[i].style.position = "fixed";
     x[i].style.bottom = "0";
