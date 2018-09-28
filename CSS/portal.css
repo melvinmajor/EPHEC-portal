@@ -98,7 +98,8 @@ footer {
   width: 175px;
   margin-top: -25px;
 }
-#linkDiscord, #linkCNA, #linkW3S, #linkJetBrains, #linkAzure, #linkMsImagine, #linkOneDrive, #linkWebStore, #linkInginious {
+#linkDiscord, #linkCNA, #linkW3S, #linkJetBrains, #linkAzure, #linkMsImagine, #linkOneDrive, #linkWebStore, #linkInginious,
+#linkTrello {
   border: 1px solid var(--tile);
   background-color: var(--tile);
   text-decoration: none;
@@ -107,7 +108,8 @@ footer {
   width: 150px;
   height: 150px;
 }
-#linkDiscord:hover, #linkOneDrive:hover, #linkWebStore:hover {
+#linkDiscord:hover, #linkOneDrive:hover, #linkWebStore:hover,
+#linkTrello:hover {
   box-shadow: 0 14px 28px var(--rgba-hover-start), 0 10px 10px var(--rgba-hover-stop);
   transition: background-color, font-weight, border 200ms;
   font-weight: bold;
@@ -162,4 +164,8 @@ footer {
   background-color: var(--ingi);
   border: var(--ingi);
   color: var(--nious);
+}
+#linkTrello:hover {
+  background-color: var(--trello-blue);
+  border: var(--trello-blue);
 }

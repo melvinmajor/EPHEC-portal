@@ -53,3 +53,15 @@ body { transition: background-color .5s; }
   font-size: 60%;
   text-align: center;
 }
+.sidenav .aMenuPwd {
+  padding: 8px;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 12px;
+  color: var(--sidenav-text);
+  display: block;
+  transition: .3s;
+}
+.sidenav .aMenuPwd:hover {
+  color: var(--sidenav-text-hover);
+}

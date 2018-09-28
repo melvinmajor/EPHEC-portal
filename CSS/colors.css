@@ -1,6 +1,6 @@
 /**
  * Made by Melvin Campos Casares
- * Last modification: 26/09/2018
+ * Last modification: 28/09/2018
  */
 
 body {
@@ -127,4 +127,14 @@ footer, #copyright {
 #linkInginious {
   --ingi: #888888;
   --nious: #eeeeee;
+}
+#linkTrello {
+  /*
+   * Brand Guideline : https://blog.trello.com/the-how-and-why-behind-trellos-visual-brand-guide
+   * About logo : https://trello.com/about/logo
+   */
+  --trello-blue: #0079BF;
+  --trello-go: #61BD4F;
+  --trello-danger: #EB5A46;
+  --trello-wait: #F2D600;
 }
