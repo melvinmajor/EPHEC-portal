@@ -99,7 +99,7 @@ footer {
   margin-top: -25px;
 }
 #linkDiscord, #linkCNA, #linkW3S, #linkJetBrains, #linkAzure, #linkMsImagine, #linkOneDrive, #linkWebStore, #linkInginious,
-#linkTrello {
+#linkTrello, #linkWinBooks {
   border: 1px solid var(--tile);
   background-color: var(--tile);
   text-decoration: none;
@@ -109,7 +109,7 @@ footer {
   height: 150px;
 }
 #linkDiscord:hover, #linkOneDrive:hover, #linkWebStore:hover,
-#linkTrello:hover {
+#linkTrello:hover, #linkWinBooks:hover {
   box-shadow: 0 14px 28px var(--rgba-hover-start), 0 10px 10px var(--rgba-hover-stop);
   transition: background-color, font-weight, border 200ms;
   font-weight: bold;
@@ -168,4 +168,8 @@ footer {
 #linkTrello:hover {
   background-color: var(--trello-blue);
   border: var(--trello-blue);
+}
+#linkWinBooks:hover {
+  background-color: var(--winbooks);
+  border: var(--winbooks);
 }
