@@ -54,6 +54,7 @@ footer {
 .portal {
   text-align: center;
   margin-top: 50px;
+  color: var(--ephec);
 }
 .tile {
   display: grid;
