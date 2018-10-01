@@ -1,6 +1,6 @@
 /**
  * Made by Melvin Campos Casares
- * Last modification: 26/09/2018
+ * Last modification: 01/10/2018
  */
 
 @import url(colors.css);
@@ -65,29 +65,19 @@ footer {
   justify-content: center;
   margin-bottom: 10px;
 }
-.link, .linkFb {
-  border: 1px solid var(--tile);
-  background-color: var(--tile);
-  text-decoration: none;
-  box-shadow: 0 1px 3px var(--rgba-link-start), 0 1px 2px var(--rgba-link-stop);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  width: 150px;
-  height: 150px;
-}
 .link:hover {
-  box-shadow: 0 14px 28px var(--rgba-hover-start), 0 10px 10px var(--rgba-hover-stop);
-  transition: background-color, font-weight, border 200ms;
   background-color: var(--ephec);
   border: var(--ephec);
-  font-weight: bold;
 }
 .linkFb:hover {
-  box-shadow: 0 14px 28px var(--rgba-hover-start), 0 10px 10px var(--rgba-hover-stop);
-  transition: background-color, font-weight, color, border 200ms;
   background-color: var(--fb);
   border: var(--fb-light);
-  font-weight: bold;
   color: var(--fb-light);
+}
+.linkWhite:hover {
+  background-color: var(--white);
+  border: var(--white);
+  color: var(--tile);
 }
 
 
@@ -98,23 +88,28 @@ footer {
   width: 175px;
   margin-top: -25px;
 }
+.link, .linkFb,
 #linkDiscord, #linkCNA, #linkW3S, #linkJetBrains, #linkAzure, #linkMsImagine, #linkOneDrive, #linkWebStore, #linkInginious,
-#linkTrello, #linkWinBooks {
+#linkTrello, #linkWinBooks, #linkBN, .linkWhite {
   border: 1px solid var(--tile);
   background-color: var(--tile);
   text-decoration: none;
+  font-weight: normal;
   box-shadow: 0 1px 3px var(--rgba-link-start), 0 1px 2px var(--rgba-link-stop);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   width: 150px;
   height: 150px;
 }
+.link,
 #linkDiscord:hover, #linkOneDrive:hover, #linkWebStore:hover,
 #linkTrello:hover, #linkWinBooks:hover {
   box-shadow: 0 14px 28px var(--rgba-hover-start), 0 10px 10px var(--rgba-hover-stop);
   transition: background-color, font-weight, border 200ms;
   font-weight: bold;
 }
-#linkCNA:hover, #linkW3S:hover, #linkJetBrains:hover, #linkAzure:hover, #linkMsImagine:hover, #linkInginious:hover {
+.linkFb,
+#linkCNA:hover, #linkW3S:hover, #linkJetBrains:hover, #linkAzure:hover, #linkMsImagine:hover, #linkInginious:hover,
+#linkBN:hover, .linkWhite:hover {
   box-shadow: 0 14px 28px var(--rgba-hover-start), 0 10px 10px var(--rgba-hover-stop);
   transition: background-color, color, font-weight, border 200ms;
   font-weight: bold;
@@ -172,4 +167,9 @@ footer {
 #linkWinBooks:hover {
   background-color: var(--winbooks);
   border: var(--winbooks);
+}
+#linkBN:hover {
+  background-color: var(--bn-blue);
+  border: var(--bn-blue);
+  color: var(--bn-grey);
 }

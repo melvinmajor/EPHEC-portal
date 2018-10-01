@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconProject Version="2.0" Name="Check" PUAEnable="true" BasicLatinEnable="false">
+  <Icon Name="Check-03" HasCharacterMap="false" IsDirty="false" FontName="Check-03" IsDuplicate="false" ASCIIValue="" AlphaNumericValue="" FiValue="" GroupName="Application" ExportCommand="MetroGraphicsPackage.IconCommand" Location="Application" Data="M0,0.86499024L25.80899,0.86499024 25.80899,2.4800104 22.119019,5.5149838 22.119019,4.5499874 3.6849976,4.5499874 3.6849976,22.973998 22.119019,22.973998 22.119019,15.100005 25.80899,10.679992 25.80899,26.664001 0,26.664001z M30.75,0L32,1.3299866 16.154999,20.333984 7.0599976,9.8489982 8.4850159,8.2949821 16.154999,12.003997z" DataFont="M2.5,85.8L809,85.8 809,585.3 693.7,447.3 693.7,201.3 117.6,201.3 117.6,777 693.7,777 693.7,746.8 809,841.7 809,892.2 2.5,892.2 2.5,85.8z M507.3,544L267.6,660 223.1,611.4 507.3,283.7 1002.5,877.6 963.4,919.2 507.3,544z">
+    <Settings MainWidth="128" MainHeight="128" FlipX="1" FlipY="1" CustomSize="128" IconShape="None" BackgroundBrush="#FFB881FF" ContentWidth="92" ContentHeight="92" Angle="0" IsRect="false" SizeIndex="5" CustomWidth="128" CustomHeight="128" IsLinked="false" Padding="18" MaximumPadding="39" SldierValueChanged="MetroGraphicsPackage.IconCommand" IconBrush="#FFFFFFFF" FontFamily="Webdings" Character="&gt;" FlipCommand="MetroGraphicsPackage.IconCommand" IsBackgroundVisible="true" />
+  </Icon>
+  <PreferenceInfo ClassPrefix="sf-icon-" ClassPostfix="" CSSSelector="Attribute" CSSClassName="sf-icon" />
+</IconProject>

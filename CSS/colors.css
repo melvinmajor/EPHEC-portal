@@ -1,12 +1,13 @@
 /**
  * Made by Melvin Campos Casares
- * Last modification: 28/09/2018
+ * Last modification: 01/10/2018
  */
 
-body {
+body, .linkWhite {
   --ephec: #FF6A10;
   --tile: #373737;
   --background: #171717;
+  --white: #ffffff;
 }
 h1, h2 { --header: #fafafa; }
 a, span { --link: #e0e0e0; }
@@ -20,7 +21,6 @@ footer, #copyright {
   --foot-rgba-start: rgba(0,0,0,0.30);
   --foot-rgba-stop: rgba(0,0,0,0.22);
 }
-
 .sidenav {
   --sidenav-background: #fff;
   --sidenav-text: #818181;
@@ -139,3 +139,7 @@ footer, #copyright {
   --trello-wait: #F2D600;
 }
 #linkWinBooks { --winbooks: #003f7d; }
+#linkBN {
+  --bn-blue: #214685; /* rgb(33, 70, 133) - R: 33, G: 70, B: 133 */
+  --bn-grey: #B1B1B1; /* rgb(177, 177, 177) - R: 177, G: 177, B: 177 */
+}
