@@ -1,7 +1,10 @@
-># EPHEC-portal
+﻿># EPHEC-portal
 >Portail web de l'EPHEC
 >
 >-> Last update : October 2018
+
+### Licence
+The MIT License (MIT)
 
 ### Langage de programmation
 HTML5, CSS3, JavaScript (ECMAscript 6)
