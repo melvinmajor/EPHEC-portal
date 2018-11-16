@@ -1,6 +1,6 @@
 /**
  * Made by Melvin Campos Casares
- * Last modification: 01/10/2018
+ * Last modification: 16/11/2018
  */
 
 @import url(colors.css);
@@ -89,13 +89,15 @@ footer {
   width: 175px;
   margin-top: -25px;
 }
-#linkSmallFb {
-  width: 14px;
+#linkSmallFb, #linkPwned {
   color: var(--ephec);
   text-decoration: none;
   font-style: italic;
   font-size: 16px;
 }
+#linkSmallFb { width: 14px; }
+#linkPwned { height: 25px; }
+#linkSmallFb:hover, #linkPwned:hover { text-decoration: underline; }
 .link, .linkFb,
 #linkDiscord, #linkCNA, #linkW3S, #linkJetBrains, #linkAzure, #linkMsImagine, #linkOneDrive, #linkWebStore, #linkInginious,
 #linkTrello, #linkWinBooks, #linkBN, .linkWhite {
