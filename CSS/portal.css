@@ -1,6 +1,6 @@
 /**
  * Made by Melvin Campos Casares
- * Last modification: 16/11/2018
+ * Last modification: 05/12/2018
  */
 
 @import url(colors.css);
@@ -65,6 +65,9 @@ footer {
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
+}
+.divUnderTile {
+  margin-bottom: 35px;
 }
 .link:hover {
   background-color: var(--ephec);

@@ -6,7 +6,7 @@
 
 /*
  * JS part specific to sidenav
- * It's an off-canvas menu w/ opacity
+ * It's an off-canvas menu w/ opacity (and blur)
  */
 function blurOn() {
   const x = document.getElementsByClassName("portal");
