@@ -92,7 +92,7 @@ footer {
   width: 175px;
   margin-top: -25px;
 }
-#linkSmallFb, #linkPwned {
+#linkSmallFb, #linkPwned, #linkWeb {
   color: var(--ephec);
   text-decoration: none;
   font-style: italic;
@@ -100,7 +100,11 @@ footer {
 }
 #linkSmallFb { width: 14px; }
 #linkPwned { height: 25px; }
-#linkSmallFb:hover, #linkPwned:hover { text-decoration: underline; }
+#linkWeb {
+  width: 52px;
+  margin-top: -25px;
+}
+#linkSmallFb:hover, #linkPwned:hover, #linkWeb:hover { text-decoration: underline; }
 .link, .linkFb,
 #linkDiscord, #linkCNA, #linkW3S, #linkJetBrains, #linkAzure, #linkMsImagine, #linkOneDrive, #linkWebStore, #linkInginious,
 #linkTrello, #linkWinBooks, #linkBN, .linkWhite {
