@@ -9,35 +9,47 @@ body, .portal, .linkWhite {
   --background: #171717;
   --white: #ffffff;
 }
-h1, h2 { --header: #fafafa; }
-a, span { --link: #e0e0e0; }
-h2, footer {
-  --rgba-start: rgba(0,0,0,0.16);
-  --rgba-stop: rgba(0,0,0,0.23);
+
+h1, h2 {
+  --header: #fafafa;
 }
+
+a, span {
+  --link: #e0e0e0;
+}
+
+h2, footer {
+  --rgba-start: rgba(0, 0, 0, 0.16);
+  --rgba-stop: rgba(0, 0, 0, 0.23);
+}
+
 footer, #copyright {
   --foot: #bdbdbd;
   --foot-background: #424242;
-  --foot-rgba-start: rgba(0,0,0,0.30);
-  --foot-rgba-stop: rgba(0,0,0,0.22);
+  --foot-rgba-start: rgba(0, 0, 0, 0.30);
+  --foot-rgba-stop: rgba(0, 0, 0, 0.22);
 }
+
 .sidenav {
   --sidenav-background: #fff;
   --sidenav-text: #818181;
   --sidenav-text-hover: #1f1f1f;
 }
+
 .link {
   --rgba-link-start: rgba(0, 0, 0, 0.12);
   --rgba-link-stop: rgba(0, 0, 0, 0.24);
   --rgba-hover-start: rgba(0, 0, 0, 0.25);
   --rgba-hover-stop: rgba(0, 0, 0, 0.22);
 }
+
 .linkFb {
   --fb: #3b5998;
   --fb-light: #8b9dc3;
   --fb-content: #dfe3ee;
   --fb-page: #f7f7f7;
 }
+
 .MicrosoftPalette, #linkAzure, #linkMsImagine, #linkOneDrive, #linkWebStore {
   /*
    * https://ratnacahayarina.files.wordpress.com/2014/03/microsoft.pdf
@@ -77,6 +89,7 @@ footer, #copyright {
   /* Others */
   --azure: #007FFF;
 }
+
 #linkDiscord {
   /*
    * Discord Brand :
@@ -85,6 +98,7 @@ footer, #copyright {
    */
   --discord: #7289DA;
 }
+
 #linkCNA {
   /*
    * Cisco Color Guidelines
@@ -99,10 +113,12 @@ footer, #copyright {
   --light-gray2: #C6C7CA;
   --pale-gray1: #E8EBF1;
 }
+
 #linkW3S {
   --apple: #4caf50;
   --davys-grey: #555555; /* Davy's Grey */
 }
+
 #linkJetBrains {
   /*
    * JetBrains Brand :
@@ -124,10 +140,12 @@ footer, #copyright {
   --green: #18D68C;
   --lemon-yellow: #FCF84A;
 }
+
 #linkInginious {
   --ingi: #888888;
   --nious: #eeeeee;
 }
+
 #linkTrello {
   /*
    * Brand Guideline : https://blog.trello.com/the-how-and-why-behind-trellos-visual-brand-guide
@@ -138,7 +156,11 @@ footer, #copyright {
   --trello-danger: #EB5A46;
   --trello-wait: #F2D600;
 }
-#linkWinBooks { --winbooks: #003f7d; }
+
+#linkWinBooks {
+  --winbooks: #003f7d;
+}
+
 #linkBN {
   --bn-blue: #214685; /* rgb(33, 70, 133) - R: 33, G: 70, B: 133 */
   --bn-grey: #B1B1B1; /* rgb(177, 177, 177) - R: 177, G: 177, B: 177 */

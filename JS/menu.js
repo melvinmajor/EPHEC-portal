@@ -17,6 +17,7 @@ function blurOn() {
     x[i].style.filter = "blur(5px)"; /* For IE8 and earlier */
   }
 }
+
 function blurOff() {
   const x = document.getElementsByClassName("portal");
   let i;
@@ -25,6 +26,7 @@ function blurOff() {
     x[i].style.filter = "blur(0px)"; /* For IE8 and earlier */
   }
 }
+
 function footerFixedOn() {
   const x = document.getElementsByTagName("footer");
   let i;
@@ -38,6 +40,7 @@ function footerFixedOn() {
     x[i].style.filter = "blur(5px)"; /* For IE8 and earlier */
   }
 }
+
 function footerFixedOff() {
   const x = document.getElementsByTagName("footer");
   let i;
@@ -50,12 +53,14 @@ function footerFixedOff() {
     x[i].style.filter = "blur(0px)"; /* For IE8 and earlier */
   }
 }
+
 function openNav() {
   document.getElementById("sidenav").style.width = "180px";
   //document.getElementById("main").style.marginLeft = "180px";
   blurOn();
   footerFixedOn();
 }
+
 function closeNav() {
   document.getElementById("sidenav").style.width = "0";
   //document.getElementById("main").style.marginLeft = "0";

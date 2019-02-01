@@ -1,8 +1,7 @@
 /**
  * Made by Melvin Campos Casares
- * Last modification: 05/12/2018
+ * Last modification: 30/01/2019
  */
-
 @import url(colors.css);
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -13,24 +12,32 @@ body {
   background-color: var(--background);
   font-family: 'Roboto', sans-serif;
 }
+
 h1, h2 {
   color: var(--header);
   margin: 25px;
 }
-h1 { font-size: 175%; }
+
+h1 {
+  font-size: 175%;
+}
+
 h2 {
   font-size: 150%;
   text-shadow: 0 3px 6px var(--rgba-start), 0 3px 6px var(--rgba-stop);
 }
+
 a {
   color: var(--link);
   margin: 5px;
   padding: 2px 5px;
 }
+
 span {
   color: var(--link);
   font-size: 90%;
 }
+
 footer {
   color: var(--foot);
   font-size: 75%;
@@ -56,28 +63,34 @@ footer {
   margin-top: 50px;
   color: var(--ephec);
 }
+
 .tile {
   display: grid;
   grid-template-columns: repeat(4, 172px);
 }
+
 .superTile {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
 }
+
 .divUnderTile {
   margin-bottom: 35px;
 }
+
 .link:hover {
   background-color: var(--ephec);
   border: var(--ephec);
 }
+
 .linkFb:hover {
   background-color: var(--fb);
   border: var(--fb-light);
   color: var(--fb-light);
 }
+
 .linkWhite:hover {
   background-color: var(--white);
   border: var(--white);
@@ -92,19 +105,31 @@ footer {
   width: 175px;
   margin-top: -25px;
 }
+
 #linkSmallFb, #linkPwned, #linkWeb {
   color: var(--ephec);
   text-decoration: none;
   font-style: italic;
   font-size: 16px;
 }
-#linkSmallFb { width: 14px; }
-#linkPwned { height: 25px; }
+
+#linkSmallFb {
+  width: 14px;
+}
+
+#linkPwned {
+  height: 25px;
+}
+
 #linkWeb {
   width: 52px;
   margin-top: -25px;
 }
-#linkSmallFb:hover, #linkPwned:hover, #linkWeb:hover { text-decoration: underline; }
+
+#linkSmallFb:hover, #linkPwned:hover, #linkWeb:hover {
+  text-decoration: underline;
+}
+
 .link, .linkFb,
 #linkDiscord, #linkCNA, #linkW3S, #linkJetBrains, #linkAzure, #linkMsImagine, #linkOneDrive, #linkWebStore, #linkInginious,
 #linkTrello, #linkWinBooks, #linkBN, .linkWhite {
@@ -113,10 +138,11 @@ footer {
   text-decoration: none;
   font-weight: normal;
   box-shadow: 0 1px 3px var(--rgba-link-start), 0 1px 2px var(--rgba-link-stop);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
   width: 150px;
   height: 150px;
 }
+
 .link,
 #linkDiscord:hover, #linkOneDrive:hover, #linkWebStore:hover,
 #linkTrello:hover, #linkWinBooks:hover {
@@ -124,6 +150,7 @@ footer {
   transition: background-color, font-weight, border 200ms;
   font-weight: bold;
 }
+
 .linkFb,
 #linkCNA:hover, #linkW3S:hover, #linkJetBrains:hover, #linkAzure:hover, #linkMsImagine:hover, #linkInginious:hover,
 #linkBN:hover, .linkWhite:hover {
@@ -131,10 +158,12 @@ footer {
   transition: background-color, color, font-weight, border 200ms;
   font-weight: bold;
 }
+
 #linkDiscord:hover {
   background-color: var(--discord);
   border: var(--discord);
 }
+
 #linkCNA:hover {
   /*
    * Cisco Color Guidelines
@@ -144,47 +173,57 @@ footer {
   border: var(--river-blue);
   color: var(--icy-blue);
 }
+
 #linkW3S:hover {
   background-color: var(--apple);
   border: var(--apple);
   color: var(--davys-grey);
 }
+
 #linkJetBrains:hover {
   background-color: var(--crimson);
   border: var(--carmine);
   color: var(--amber);
 }
+
 #linkAzure:hover {
   background-color: var(--azure);
   border: var(--azure);
   color: var(--cyan-light);
 }
+
 #linkMsImagine:hover {
   background-color: var(--purple);
   border: var(--purple-dark);
   color: var(--purple-light);
 }
+
 #linkOneDrive:hover {
   background-color: var(--blue);
   border: var(--blue);
 }
+
 #linkWebStore:hover {
   background-color: var(--purple-light);
   border: var(--purple-light);
 }
+
 #linkInginious:hover {
   background-color: var(--ingi);
   border: var(--ingi);
   color: var(--nious);
 }
+
 #linkTrello:hover {
   background-color: var(--trello-blue);
   border: var(--trello-blue);
 }
+
 #linkWinBooks:hover {
   background-color: var(--winbooks);
   border: var(--winbooks);
 }
+
 #linkBN:hover {
   background-color: var(--bn-blue);
   border: var(--bn-blue);
