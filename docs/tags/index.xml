@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Portail EPHEC</title>
+    <link>https://melvinmajor.github.io/EPHEC-portal/tags/</link>
+    <description>Recent content in Tags on Portail EPHEC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-be</language>
+    
+	<atom:link href="https://melvinmajor.github.io/EPHEC-portal/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

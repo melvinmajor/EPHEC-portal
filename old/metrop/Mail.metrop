@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconProject Version="2.0" Name="Mail" PUAEnable="true" BasicLatinEnable="false">
+  <Icon Name="Mail" HasCharacterMap="false" Data="M0,0.85201934L0.024002075,0.85201934 7.5710008,8.2449855 15.976002,16.49699 24.381009,8.2449855 31.928008,0.85201934 32.000001,0.85201934 32.000001,23.452 0,23.452z M1.902001,0L16.000003,0 30.096999,0 23.049009,5.9290093 16.000003,11.858019 8.9509985,5.9290093z" Location="Application" IsDirty="true" FontName="Message-Mail" IsDuplicate="false" ASCIIValue="" AlphaNumericValue="" FiValue="" GroupName="Application" DataFont="M2.5,136.1L1002.4,136.1 1002.4,842.3 1000.2,842.3 764.4,611.3 501.9,353.5 239.1,611.3 3.3,842.3 2.5,842.3 2.5,136.1z M282.3,683.6L502.6,498.3 722.8,683.6 943,869 502.5,869 61.9,869 282.3,683.6z" ExportCommand="MetroGraphicsPackage.IconCommand">
+    <Settings MainWidth="128" MainHeight="128" FlipX="-1" FlipY="1" CustomSize="128" IconShape="None" BackgroundBrush="#FFB881FF" ContentWidth="92" ContentHeight="92" Angle="0" IsRect="false" SizeIndex="5" CustomWidth="128" CustomHeight="128" IsLinked="false" Padding="18" MaximumPadding="39" SldierValueChanged="MetroGraphicsPackage.IconCommand" IconBrush="#FFFFFFFF" FontFamily="Webdings" Character="&gt;" FlipCommand="MetroGraphicsPackage.IconCommand" IsBackgroundVisible="true" />
+  </Icon>
+  <PreferenceInfo ClassPrefix="sf-icon-" ClassPostfix="" CSSSelector="Attribute" CSSClassName="sf-icon" />
+</IconProject>

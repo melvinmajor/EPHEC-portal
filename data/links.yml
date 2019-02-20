@@ -1,0 +1,213 @@
+﻿publishDir: docs
+
+tiles:
+-
+  name: 'ePerso'
+  url: 'https://eperso.ephec.be/'
+  img: 'IMG/eperso.png'
+  bg_color: '#F8742D'
+  tags: ['student', 'teacher']
+-
+  name: 'Calendrier'
+  url: 'https://outlook.office365.com/owa/?realm=ephec.be#path=/calendar'
+  img: 'IMG/Calendar.png'
+  bg_color: '#1D8D97'
+  tags: ['student', 'ms']
+-
+  name: 'Moodle'
+  url: 'https://moodle.ephec.be/'
+  img: 'IMG/Black-Board.png'
+  bg_color: '#1EA47C'
+  tags: ['student', 'teacher']
+-
+  name: 'Campus Virtuel'
+  url: 'https://campus-virtuel.ephec.be/sites/ephec2018'
+  img: 'IMG/Black-Board.png'
+  bg_color: '#015E67'
+  tags: ['student', 'teacher']
+-
+  name: 'Mail'
+  url: 'https://outlook.office365.com/owa/?realm=ephec.be#path=/mail'
+  img: 'IMG/Mail.png'
+  bg_color: '006F4D'
+  tags: ['student', 'ms']
+-
+  name: 'OneDrive'
+  url: 'https://ephec-my.sharepoint.com/'
+  img: 'IMG/OneDrive.png'
+  bg_color: 'F88D2D'
+  tags: ['student', 'teacher', 'ms', 'ti', 'compta']
+-
+  name: 'Intranet prof & admin HE'
+  url: 'https://ephec.sharepoint.com/sites/Private/IntranetHE/SitePages/Accueil.aspx'
+  img: 'IMG/School2.png'
+  bg_color: '#D65109'
+  tags: ['teacher']
+-
+  name: 'Intranet prof & admin PS'
+  url: 'https://ephec.sharepoint.com/sites/Private/Intranetps/SitePages/Accueil.aspx'
+  img: 'IMG/School2.png'
+  bg_color: '#FFAE57'
+  tags: ['teacher']
+-
+  name: 'Intranet étudiants'
+  url: 'https://ephec.sharepoint.com/sites/Agora/SitePages/Accueil.aspx'
+  img: 'IMG/School.png'
+  bg_color: '#68D0B1'
+  tags: ['student']
+-
+  name: 'Media Plus'
+  url: 'https://mediaplus.ephec.be/'
+  img: 'IMG/Plus.png'
+  bg_color: '#63C9AA'
+  tags: ['student']
+-
+  name: 'Wims'
+  url: 'https://wims.ephec.be/'
+  img: 'IMG/Book.png'
+  bg_color: '#D65109'
+  tags: ['student', 'teacher']
+-
+  name: 'Alumni'
+  url: 'http://ephec-alumni.be/'
+  img: 'IMG/Graduate.png'
+  bg_color: '#19818B'
+  tags: ['student']
+-
+  name: 'Modifier le mot de passe'
+  url: 'https://account.activedirectory.windowsazure.com/ChangePassword.aspx'
+  bg_color: '#000000'
+  tags: ['student', 'teacher']
+-
+  name: 'Réinitialiser le mot de passe'
+  url: 'https://passwordreset.microsoftonline.com/'
+  bg_color: '#000000'
+  tags: ['student', 'teacher']
+-
+  name: 'EPHEC'
+  url: 'http://www.ephec.be/'
+  img: 'IMG/EPHEC-logo.svg'
+  bg_color: '#000000'
+-
+  name: 'have i been powned?'
+  url: 'https://haveibeenpwned.com/'
+  img: 'IMG/haveibeenpwned.png'
+  bg_color: '#ffffff'
+-
+  name: 'Prise de présences'
+  url: 'https://presenceshe.azurewebsites.net/'
+  img: 'IMG/Check.png'
+  bg_color: "#FF6A10"
+  tags: ['teacher']
+-
+  name: 'Microsoft Azure'
+  url: 'https://portal.azure.com/'
+  img: 'IMG/Azure.png'
+  bg_color: '#007FFF'
+  tags: ['ms', 'ti']
+-
+  name: 'Microsoft Imagine'
+  url: 'https://imagine.microsoft.com/fr-fr'
+  img: 'IMG/Microsoft.png'
+  bg_color: '#68217A'
+  tags: ['ms', 'ti']
+-
+  name: 'EPHEC webstore'
+  url: 'https://e5.onthehub.com/WebStore/ProductsByMajorVersionList.aspx?cmi_cs=1&cmi_mnuMain=bdba23cf-e05e-e011-971f-0030487d8897&ws=2a54915d-669b-e011-969d-0030487d8897&vsro=8'
+  img: 'IMG\Microsoft-Imagine.png'
+  bg_color: '#9B4F96'
+  tags: ['ti']
+-
+  name: 'w3schools.com'
+  url: 'https://www.w3schools.com/'
+  img: 'IMG/w3schools.png'
+  txt_color: '#555555'
+  bg_color: '#4caf50'
+  tags: ['ti']
+-
+  name: 'JetBrains'
+  url: 'https://account.jetbrains.com/login'
+  img: 'IMG/JetBrains.png'
+  txt_color: '#FB5502'
+  bg_color: '#FB2046'
+  tags: ['ti']
+-
+  name: 'Cisco Netacad'
+  url: 'https://www.netacad.com/login/'
+  img: 'IMG/Cisco.png'
+  txt_color: '#C4D6ED'
+  bg_color: '#049FD9'
+  tags: ['ti']
+-
+  name: 'INGInious'
+  url: 'https://inginious.ephec.be/courselist'
+  img: 'IMG/INGInious.png'
+  bg_color: '#888888'
+  tags: ['ti']
+-
+  name: 'Trello'
+  url: 'https://trello.com/'
+  img: 'IMG/Trello.png'
+  bg_color: '#0079BF'
+  tags: ['ti', 'compta']
+-
+  name: 'Discord TI'
+  url: 'https://discord.gg/psAc7N6'
+  img: 'IMG/Discord-white.png'
+  bg_color: '#7289DA'
+  tags: ['ti']
+-
+  name: 'Facebook 1TI'
+  url: 'https://www.facebook.com/groups/320556645174938'
+  img: 'IMG/Facebook.png'
+  bg_color: '#3b5998'
+  tags: ['ti']
+-
+  name: 'Facebook 2TI'
+  url: 'https://www.facebook.com/groups/472550026582006'
+  img: 'IMG/Facebook.png'
+  bg_color: '#3b5998'
+  tags: ['ti']
+-
+  name: 'Facebook 3TI'
+  url: 'https://www.facebook.com/groups/268537277331562'
+  img: 'IMG/Facebook.png'
+  bg_color: '#3b5998'
+  tags: ['ti']
+-
+  name: 'Facebook section TI'
+  url: 'https://www.facebook.com/groups/EPHECTI/'
+  img: 'IMG/Facebook.png'
+  bg_color: '#3b5998'
+  tags: ['ti']
+-
+  name: 'Plan comptable'
+  url: 'https://plancomptablebelge.be/'
+  img: 'IMG/pcmn.png'
+  bg_color: '#FF6A10'
+  tags: ['compta']
+-
+  name: 'Banque Carrefour'
+  url: 'https://economie.fgov.be/fr/themes/entreprises/banque-carrefour-des'
+  img: 'IMG/bce.png'
+  bg_color: '#FF6A10'
+  tags: ['compta']
+-
+  name: 'Moniteur belge'
+  url: 'http://www.ejustice.just.fgov.be/cgi/welcome.pl'
+  img: 'IMG/moniteur-belge.png'
+  bg_color: '#000000'
+  tags: ['compta']
+-
+  name: 'Bilan annuel société'
+  url: 'https://cri.nbb.be/bc9/web/catalog'
+  img: 'IMG/banque-nationale.png'
+  txt_color: '#B1B1B1'
+  bg_color: '#214685'
+  tags: ['compta']
+-
+  name: 'WinBooks'
+  url: 'https://www.winbooks.be/fr/profile/ecoles'
+  img: 'IMG/winbooks.png'
+  bg-color: '#003f7d'
+  tags: ['compta']

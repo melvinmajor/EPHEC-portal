@@ -1,0 +1,36 @@
+baseURL = "https://melvinmajor.github.io/EPHEC-portal/"
+languageCode = "fr-be"
+title = "Portail EPHEC"
+theme = "slate"
+
+publishDir = "docs"
+
+[ params ]
+OpenLinksInNewWindow = true
+Favicon = "favicon\favicon.ico"
+
+#list of nav tags
+[[ params.nav ]]
+name = "Microsoft"
+tag = "ms"
+icon = "windows"
+
+[[ params.nav ]]
+name = "Portail des etudiants"
+tag = "student"
+icon = "graduation-cap"
+
+[[ params.nav ]]
+name = "Portail des professeurs"
+tag = "teacher"
+icon = "bullseye"
+
+[[ params.nav ]]
+name = "Applications et liens pour les etudiants en informatique"
+tag = "ti"
+icon = "desktop"
+
+[[ params.nav ]]
+name = "Applications et liens pour les etudiants en comptabilite"
+tag = "compta"
+icon = "credit-card"
